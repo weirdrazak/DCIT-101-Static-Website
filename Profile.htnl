@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Weirdo Webpage</title>
+       <style>
+           ul {
+               list-style-type: none;
+               margin: 0;
+               padding: 0;
+               overflow: hidden;
+               background-color: black;
+           }
+
+           li {float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active) {
+            background-color: green;
+            color: white;
+        }
+        .active {
+            background-color: green;
+        }
+        .center{ 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        .left{ 
+            display: block;
+            margin-left: 47%;
+            margin-right: 53%;        
+            width: 5%;
+        }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: black;
+  color: rgb(255, 255, 255);
+}
+
+
+       </style>
+    </head>
+    <body style="background-color: salmon;">
+        <ul>
+            <li><a class="active"href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="about">About</a></li>
+        </ul>
+        <h1 text align="center" text-reflection="button" style="background-color: black; color: white;">WEIRDO CLOTHING
+            <img src="C:\Users\Yesia\Desktop\DCIT 101\html\index\weirdo(2).jpg" class="left">
+        </h1>
+        <h3 text align="center">WE EMBRACE INDIVIDUALITY, REALNESS, DIVERSITY AND ORIGINALITY</h3>
+
+        <img src="C:\Users\Yesia\Desktop\DCIT 101\html\index\weirdo(3).jpg" class="center">
+        <br>
+        <img src="C:\Users\Yesia\Desktop\DCIT 101\html\index\weirdo(4).jpg" class="center">
+        <br>
+        <img src="C:\Users\Yesia\Desktop\DCIT 101\html\index\weirdo(1).jpg" class="center">
+        <br><br>
+        <footer style="background-color:black; color: white;">
+            <P><B>FOLLOW</B></P>
+            <a href="https://instagram.com/weirdo_brand?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a>
+            <p>Weirdo Clothing &copy;</p>
+        </footer>
+
+    </body>
+</html>
